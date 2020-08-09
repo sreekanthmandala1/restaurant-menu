@@ -1,1 +1,10 @@
-<p>recipe item</p>
+<a href="#" class="list-group-item clearfix" (click)="onSelected()"
+  onMouseOver="this.style.backgroundColor='#F8F8F8'" onMouseOut="this.style.backgroundColor='#FFFFFF'">
+  <div class="float-left">
+    <h4 class="list-group-item-heading">{{recipe.name}}</h4>
+    <p class="list-group-item-text">{{recipe.description}}</p>
+  </div>
+  <span class="float-right" style="margin-left:200px">
+    <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="max-height:60px;">
+  </span>
+</a>
