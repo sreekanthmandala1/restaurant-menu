@@ -1,3 +1,7 @@
+# Access from here(Preview)
+https://babairestaurant.web.app
+(deployed using firebase)
+
 # RestaurantMenu
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.10.
