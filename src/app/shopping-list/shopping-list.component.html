@@ -1,10 +1,14 @@
-<div class="row">
-  <div class="col-xs-12">
-    <app-shopping-edit (ingredientAdded)="onIngredientAdded($event)"></app-shopping-edit>
-    <hr>
-    <div class="list-group">
-      <a class="list-group-item" style="cursor:pointer"  onMouseOver="this.style.backgroundColor='#F8F8F8'" onMouseOut="this.style.backgroundColor='#FFFFFF'" *ngFor="let ingredient of ingredients">{{ ingredient.name}} ({{ingredient.amount}})
-      </a>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <app-shopping-edit (ingredientAdded)="onIngredientAdded($event)"></app-shopping-edit>
+      <hr>
+      <div class="list-group">
+        <a class="list-group-item" style="cursor:pointer" onMouseOver="this.style.backgroundColor='#F8F8F8'"
+          onMouseOut="this.style.backgroundColor='#FFFFFF'" *ngFor="let ingredient of ingredients">{{ ingredient.name}}
+          ({{ingredient.amount}})
+        </a>
+      </div>
     </div>
   </div>
 </div>

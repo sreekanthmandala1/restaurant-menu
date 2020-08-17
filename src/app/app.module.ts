@@ -9,9 +9,10 @@ import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
-import { RecipeItemComponent } from  './recipes/recipe-list/recipe-item/recipe-item.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
+import {DropdownDirective} from './shared/dropdown.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { ServerElementComponent } from './server-element/server-element.componen
     ShoppingEditComponent,
     RecipeItemComponent,
     CockpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,

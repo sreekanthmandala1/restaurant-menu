@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "babairestaurant": {
+      "hosting": {
+        "restaurant-menu": [
+          "babairestaurant"
+        ]
+      }
+    }
+  }
+}
