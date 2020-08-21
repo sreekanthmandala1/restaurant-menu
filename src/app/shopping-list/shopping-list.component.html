@@ -5,7 +5,7 @@
       <hr>
       <div class="list-group">
         <a class="list-group-item" style="cursor:pointer" onMouseOver="this.style.backgroundColor='#F8F8F8'"
-          onMouseOut="this.style.backgroundColor='#FFFFFF'" *ngFor="let ingredient of ingredients">{{ ingredient.name}}
+          onMouseOut="this.style.backgroundColor='#FFFFFF'" *ngFor="let ingredient of ingredients; let i = index" (click)="onEditItem(i)">{{ ingredient.name}}
           ({{ingredient.amount}})
         </a>
       </div>
